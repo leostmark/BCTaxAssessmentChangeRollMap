@@ -1,0 +1,26 @@
+{
+  "name": "Hover",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "1.4",
+  "wabVersion": "1.4",
+  "author": "Esri Canada Ltd",
+  "description": "This is the hover widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":false,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":false,
+		"hasSettingPage":true,
+		"hasSettingUIFile":true,
+		"hasSettingLocale":true,
+		"hasSettingStyle":true,
+		"IsController":false,
+		"closeable": false,
+		"openAtStart": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "layerInfos": [
+    {
+      "name": "AssessmentArea",
+      "id": "AssessChangeRoll_2938_0",
+      "layer": {
+        "url": "https://pvdev01.esri.local/arcgis/rest/services/BCAssessment/AssessChangeRoll/MapServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID_1",
+            "alias": "OBJECTID_1"
+          },
+          {
+            "show": false,
+            "name": "Shape",
+            "alias": "Shape"
+          },
+          {
+            "show": true,
+            "name": "AA_NUM",
+            "alias": "AA_NUM"
+          },
+          {
+            "show": true,
+            "name": "AA_NAMES",
+            "alias": "AA_NAMES"
+          },
+          {
+            "show": false,
+            "name": "Shape_Length",
+            "alias": "Shape_Length"
+          },
+          {
+            "show": false,
+            "name": "Shape_Area",
+            "alias": "Shape_Area"
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "AssessChangeRoll - ChangesFormatted.csv",
+      "id": "AssessChangeRoll_1184",
+      "layer": {
+        "url": "https://pvdev01.esri.local/arcgis/rest/services/BCAssessment/AssessChangeRoll/MapServer/1",
+        "fields": [
+          {
+            "show": true,
+            "name": "Area",
+            "alias": "Area"
+          },
+          {
+            "show": true,
+            "name": "Area Name",
+            "alias": "Area Name"
+          },
+          {
+            "show": false,
+            "name": "Jur",
+            "alias": "Jur"
+          },
+          {
+            "show": false,
+            "name": "Jur Name",
+            "alias": "Jur Name"
+          },
+          {
+            "show": true,
+            "name": "Res",
+            "alias": "Res"
+          },
+          {
+            "show": true,
+            "name": "Bus/Other",
+            "alias": "Bus/Other"
+          }
+        ]
+      },
+      "show": true
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false
+}
